@@ -1,0 +1,46 @@
+<!-- "!" para html 5 (base del html)-->
+<!-- todo lo que encontremos adentro de una etiqueta exeptuando el nombre es un atributo ej: <html lang="en"> lang es un atributo-->
+<!DOCTYPE html> <!-- esta etiqueta indica que usaremos html 5  -->
+<html lang="pt_br">
+<head>
+    <!-- dentro de la etiqueta head va toda la configuracion  del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#8257E5">
+
+    <title>Proffy | Sua plataforma de estudos online</title>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/png"> <!-- asi agregamos un icono -->
+    <link rel="stylesheet" href="/styles/main.css"><!-- si en el href ponemos primero un "/" nos vamos a la parte mas general del sitio y de ahi navegamos a la carpeta especifica que necesitemos  -->
+    <link rel="stylesheet" href="/styles/partials/page-landing.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+</head>
+<body id="page-landing">
+    <!-- dentro del body, va toda la parte visible del documento  -->
+    <div id="container">
+        <!-- con escribir el nombre de una etiqueta, seguido de  "." o "#" seguido de un nombre y apretando enter crearemos un div con una clase o id con ese nombre que asignamos -->
+        <div class="logo-container">
+            <img src="images/logo.svg" alt="">
+            <h2>Sua plataforma de estudos online</h2>
+        </div>
+
+        <img src="/images/landing.svg" alt="Plataforma de estudos" class="hero-image">
+
+        <div class="buttons-container">
+            <a class="study" href="/study">
+                <img src="/images/icons/study.svg" alt="estudar">
+                Estudar
+            </a>
+            <a class="give-classes" href="/give-classes">
+                <img src="/images/icons/give-classes.svg" alt="dar aulas">
+                Dar Aulas
+            </a>
+        </div>
+        <!-- p.total-connections + enter y cree esta etiqueta -->
+        <p class="total-connections">
+            Total de 200 conexões ja realizadas
+            <img src="/images/icons/purple-heart.svg" alt="coracao roxo">
+        </p>
+    </div>
+
+</body>
+</html>

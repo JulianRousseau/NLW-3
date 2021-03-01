@@ -1,0 +1,44 @@
+EL PROYECTO NO PUDO SER TERMINADO POR ERRORES EN EL BACK END PERO TODO EL FRONT END ESTA ECHO Y SE PUEDE SACAR MUCHO DEL HTML, CSS Y JS 
+AQUI TAMBIEN MUCHAS ANOTACIONES Y COSAS A utilizar
+
+npm run dev    EN EL TERMINAL DE GIT BASH PARA VER EL PROYECTO , UNA VES PUESTO ESE CODIGO EN EL TERMINAL => http://127.0.0.1:5500/ EN EL navegador YA QUE ES UN SERVER LOCAL
+
+Idea del projecto: una plataforma de estudio online (pensada para mobil)
+
+ctrl + shift + R para hacer un hard reload en una pagina 
+(a veces cuando solo la recargamos el ordenador usa info antigua que tiene en cache y no aplica posibles cambios)
+
+para copiar una linea entera basta con situarnos en ella y ctrl + c (no es necesario seleccionar todo)
+
+todos los elementos en html tienen formato de caja (box model)
+
+para escribir y editar codigo en varios lugares a la vez alt + click en los lugares donde queremos codear
+
+Deshacer: Ctrl+Z        Rehacer: Ctrl+Mayus+Z o Ctrl+Y 
+
+javascript no solo sirve para front end, tambien se puede trabajar el back end con javascript
+
+usamos nodejs, git bash, sql
+
+si quedan dudas de como usar node, buscar como crear servidor 
+
+nodejs nacio con la idea de correr javascript en la computadora y no solo en un navegador (javascript es el lenguaje que entiende y con el que se manejan los navegadores)
+
+git bach sirve como o remplaza el cmd de windows y se puede integrar en el visualStudio
+
+en consola de comando{
+	cd= Change Directory (cambio de directorio)
+	pwd = para ver en que ubicacion nos encontramos
+	npm = Node Package Manager (manager de paquetes de node)
+	ctrl + L para limpiar la consola
+	ctrl + c si queremos interrumpir o para una ejecucion en el terminal (por si apretamos algo sin querer
+	npm install express    para crear una biblioteca o coleccion de ideas que seran colocadas en nuestro proyecto
+}
+
+
+una ves que empezamos a trabajar con nuestro servidor, ya no podemos utilizar el pluggin live server
+basicamente creamos nuestro propio servidor para ya no depender de un pluggin de visual studio y por eso es importante no utilizar live server (puede ocacionar problemas con nuestro servidor)
+
+
+
+
